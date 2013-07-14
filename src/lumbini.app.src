@@ -1,0 +1,14 @@
+{application, lumbini,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  lager,
+                  cowboy
+                 ]},
+  {mod, { lumbini_app, []}},
+  {env, []}
+ ]}.
